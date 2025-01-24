@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: learning-platform
+  datasource:
+    url: jdbc:mysql://localhost:3306/learn_db
+    username: root
+    password: Eat@113177
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 9010
